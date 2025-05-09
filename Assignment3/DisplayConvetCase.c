@@ -4,13 +4,13 @@
 
 void DisplayConvert (char CValue)
 {
-    if( )
+    if(CValue>='A' && CValue<='Z')
     {
-        printf("% ", );
+        printf("%c",CValue+32);
     }
-    else if ( )
+    else if(CValue>='a' && CValue<='z')
     {
-        printf("% ", );
+        printf("%c" ,CValue-32);
     }
 }
 
