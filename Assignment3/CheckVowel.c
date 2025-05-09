@@ -8,7 +8,7 @@ typedef int BOOL ;
 BOOL ChkVowel (char cChar) 
 {
 
-    if( cChar == 'a' || cChar == 'e' || cChar == 'i' || cChar == 'o' || cChar == 'u')
+    if( cChar == 'a' || cChar == 'e' || cChar == 'i' || cChar == 'o' || cChar == 'u' || cChar == 'A' || cChar == 'E' || cChar == 'I' || cChar == 'O' || cChar == 'U')
     {
         return TRUE;
     }
